@@ -13,14 +13,14 @@ public class WhichIsGreater {
 
   public void isGreater() {
     if (numberOne.equals(numberTwo)) {
-      System.out.printf("%.1f es igual que %.1f", numberOne, numberTwo);
+      System.out.printf("\n%.1f es igual que %.1f \n", numberOne, numberTwo);
     }
     if (numberOne > numberTwo) {
-      System.out.printf("%.1f es mayor que %.1f", numberOne, numberTwo);
+      System.out.printf("\n%.1f es mayor que %.1f \n", numberOne, numberTwo);
 
     }
     if (numberTwo > numberOne) {
-      System.out.printf("%.1f es mayor que %.1f", numberTwo, numberOne);
+      System.out.printf("\n%.1f es mayor que %.1f \n", numberTwo, numberOne);
     }
 
   }
