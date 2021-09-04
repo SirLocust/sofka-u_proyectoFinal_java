@@ -1,4 +1,4 @@
-package com.sirlocust.proyecto_java_final.model.exerciseOne;
+package com.sirlocust.proyecto_java_final.model.exerciseOne.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
