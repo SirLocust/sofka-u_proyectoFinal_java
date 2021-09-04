@@ -2,8 +2,10 @@ package com.sirlocust.proyecto_java_final.model.exerciseOne.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class WhichIsGreater {
   Double numberOne;
