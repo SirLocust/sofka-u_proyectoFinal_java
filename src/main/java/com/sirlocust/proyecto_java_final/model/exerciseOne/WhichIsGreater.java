@@ -10,15 +10,15 @@ public class WhichIsGreater {
   Double numberTwo;
 
   public void isGreater() {
-    if (numberOne == numberTwo) {
-      System.out.printf("%f es igual %f", numberOne, numberTwo);
+    if (numberOne.equals(numberTwo)) {
+      System.out.printf("%.1f es igual que %.1f", numberOne, numberTwo);
     }
     if (numberOne > numberTwo) {
-      System.out.printf("%f es mayor que %f", numberOne, numberTwo);
+      System.out.printf("%.1f es mayor que %.1f", numberOne, numberTwo);
 
-    } else {
-      System.out.printf("%f es igual %f", numberTwo, numberOne);
-
+    }
+    if (numberTwo > numberOne) {
+      System.out.printf("%.1f es mayor que %.1f", numberTwo, numberOne);
     }
 
   }
