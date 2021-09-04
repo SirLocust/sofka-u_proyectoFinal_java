@@ -8,7 +8,7 @@ public class Dashborad {
 
   private final Scanner scanner = new Scanner(System.in);
 
-  private String readLine() {
+  public String readLine() {
     return this.scanner.nextLine();
   }
 
