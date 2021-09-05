@@ -11,7 +11,16 @@ public class ExerciseThreeController {
   CalculateAreaCircle calculateAreaCircle;
 
   public boolean init() {
+    while (true) {
+      if (this.exerciseThreeDashboard.isBack()) {
+        break;
+      }
+      this.exerciseThreeDashboard.welcomeMessage();
+      this.initClass();
+      System.out.println(this.calculateAreaCircle.calculateArea());
 
+    }
+    return true;
   }
 
   public void initClass() {
