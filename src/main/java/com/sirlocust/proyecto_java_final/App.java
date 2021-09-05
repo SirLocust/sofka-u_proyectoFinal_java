@@ -1,8 +1,8 @@
 package com.sirlocust.proyecto_java_final;
 
-import com.sirlocust.proyecto_java_final.model.exerciseOne.controller.ExerciseOneController;
-import com.sirlocust.proyecto_java_final.model.exerciseOne.model.WhichIsGreater;
-import com.sirlocust.proyecto_java_final.model.exerciseOne.view.ExerciseOneDashboard;
+import com.sirlocust.proyecto_java_final.model.exerciseThree.controller.ExerciseThreeController;
+import com.sirlocust.proyecto_java_final.model.exerciseThree.model.CalculateAreaCircle;
+import com.sirlocust.proyecto_java_final.model.exerciseThree.view.ExerciseThreeDashboard;
 
 /**
  * Hello world!
@@ -17,9 +17,10 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        WhichIsGreater whichIsGreater = new WhichIsGreater();
-        ExerciseOneDashboard exerciseOneDashboard = new ExerciseOneDashboard();
-        ExerciseOneController exerciseOneController = new ExerciseOneController(exerciseOneDashboard, whichIsGreater);
-        exerciseOneController.init();
+        CalculateAreaCircle calculateAreaCircle = new CalculateAreaCircle();
+        ExerciseThreeDashboard exerciseThreeDashboard = new ExerciseThreeDashboard();
+        ExerciseThreeController exerciseThreeController = new ExerciseThreeController(exerciseThreeDashboard,
+                calculateAreaCircle);
+        exerciseThreeController.init();
     }
 }
