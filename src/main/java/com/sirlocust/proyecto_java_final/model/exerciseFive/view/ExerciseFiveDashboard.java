@@ -17,7 +17,7 @@ public class ExerciseFiveDashboard extends Dashborad {
     System.out.println(" ____   __   ____    _  _    __  _  _  ____   __   ____ ");
     System.out.println("(  _ \\ / _\\ (  _ \\  ( \\/ )  (  )( \\/ )(  _ \\ / _\\ (  _ \\");
     System.out.println(" ) __//    \\ )   /   )  /    )( / \\/ \\ ) __//    \\ )   /");
-    System.out.println("(__)  \\_/\\_/(__\\_)  (__/    (__)\\_)(_/(__)  \\_/\\_/(__\\_)");
+    System.out.println("(__)  \\_/\\_/(__\\_)  (__/    (__)\\_)(_/(__)  \\_/\\_/(__\\_)\n\n\n");
   }
 
   public void resultMessage(String cicleType, List<List<Integer>> list) {
@@ -25,8 +25,8 @@ public class ExerciseFiveDashboard extends Dashborad {
     String impares = Arrays.toString(list.get(1).toArray());
 
     System.out.printf("Numero Pares y Impares usando %s \n\n", cicleType);
-    System.out.println("numeros Pares" + pares);
-    System.out.println("numeros Impares" + pares);
+    System.out.println("numeros Pares \n" + pares);
+    System.out.println("numeros Impares\n" + impares + "\n\n");
   }
 
   public ExerciseFiveDashboard() {
