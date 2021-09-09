@@ -27,6 +27,11 @@ public class Dashborad {
     return result;
   }
 
+  public String getString(String message) {
+    System.out.println(message);
+    return this.readLine();
+  }
+
   public boolean isBack() {
     System.out.println("Marque 1 para continuar o 2 para volver ");
     System.out.flush();
