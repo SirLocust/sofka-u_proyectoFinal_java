@@ -1,26 +1,16 @@
 package com.sirlocust.proyecto_java_final;
 
+import com.sirlocust.proyecto_java_final.controller.PrincipalController;
 import com.sirlocust.proyecto_java_final.model.exerciseThree.controller.ExerciseThreeController;
 import com.sirlocust.proyecto_java_final.model.exerciseThree.model.CalculateAreaCircle;
 import com.sirlocust.proyecto_java_final.model.exerciseThree.view.ExerciseThreeDashboard;
+import com.sirlocust.proyecto_java_final.view.Dashborad;
 
-/**
- * Hello world!
- */
 public final class App {
-    private App() {
-    }
 
-    /**
-     * Says hello to the world.
-     * 
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
-        CalculateAreaCircle calculateAreaCircle = new CalculateAreaCircle();
-        ExerciseThreeDashboard exerciseThreeDashboard = new ExerciseThreeDashboard();
-        ExerciseThreeController exerciseThreeController = new ExerciseThreeController(exerciseThreeDashboard,
-                calculateAreaCircle);
-        exerciseThreeController.init();
+        Dashborad dashborad = new Dashborad();
+        PrincipalController principalController = new PrincipalController(dashborad);
+        principalController.init();
     }
 }

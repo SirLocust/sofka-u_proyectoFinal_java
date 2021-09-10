@@ -16,7 +16,13 @@ public class ExerciseOneDashboard extends Dashborad {
     return super.readLine();
   }
 
+  @Override
+  public void clearConsole() {
+    super.clearConsole();
+  }
+
   public void welcomeMessage() {
+    this.clearConsole();
     System.out.println(" __  _    __  _        _    _   _    _______ ___      ______      _     __ _   ___ ___  ");
     System.out
         .println("/ /`| | |/ /\\| |      | |\\ | | | |\\/| |_| |_/ / \\    | |_( (`    | |\\/|/ /\\ \\_/ / | |_) ");

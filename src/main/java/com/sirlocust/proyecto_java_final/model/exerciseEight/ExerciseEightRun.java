@@ -6,7 +6,7 @@ import com.sirlocust.proyecto_java_final.model.exerciseEight.view.ExerciseEightD
 
 public class ExerciseEightRun {
 
-  public boolean run() {
+  public static boolean run() {
     ExerciseEightDashboard exerciseEightDashboard = new ExerciseEightDashboard();
     WhichIsDayOfWeek whichIsDayOfWeek = new WhichIsDayOfWeek();
     ExerciseEightController exerciseEightController = new ExerciseEightController(exerciseEightDashboard,

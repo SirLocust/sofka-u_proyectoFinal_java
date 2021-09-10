@@ -6,7 +6,7 @@ import com.sirlocust.proyecto_java_final.model.exerciseEleven.view.ExerciseEleve
 
 public class ExerciseElevenRun {
 
-  public boolean run() {
+  public static boolean run() {
     ExerciseElevenDashboard exerciseElevenDashboard = new ExerciseElevenDashboard();
     WhatIsLong whatIsLong = new WhatIsLong();
     ExerciseElevenController exerciseElevenController = new ExerciseElevenController(exerciseElevenDashboard,
