@@ -6,7 +6,7 @@ import com.sirlocust.proyecto_java_final.model.exerciseTen.view.ExerciseTenDashb
 
 public class ExerciseTenRun {
 
-  public boolean run() {
+  public static boolean run() {
 
     ExerciseTenDashboard exerciseTenDashboard = new ExerciseTenDashboard();
     RemoveSpacesFromPhrase removeSpacesFromPhrase = new RemoveSpacesFromPhrase();

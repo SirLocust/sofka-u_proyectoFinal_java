@@ -6,7 +6,7 @@ import com.sirlocust.proyecto_java_final.model.exerciseFive.view.ExerciseFiveDas
 
 public class ExerciseFiveRun {
 
-  public boolean run() {
+  public static boolean run() {
     ExerciseFiveDashboard exerciseFiveDashboard = new ExerciseFiveDashboard();
     NumbersOddAndEven numbersOddAndEven = new NumbersOddAndEven();
     ExerciseFiveController exerciseFiveController = new ExerciseFiveController(exerciseFiveDashboard,

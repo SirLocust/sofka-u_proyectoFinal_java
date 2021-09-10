@@ -14,13 +14,14 @@ public class ExerciseOneController {
 
   public boolean init() {
     while (true) {
+      exerciseOneDashboard.welcomeMessage();
+      initClass();
+      wIsGreater.isGreater();
       if (exerciseOneDashboard.isBack()) {
 
         break;
       }
-      exerciseOneDashboard.welcomeMessage();
-      initClass();
-      wIsGreater.isGreater();
+
     }
     return true;
   }

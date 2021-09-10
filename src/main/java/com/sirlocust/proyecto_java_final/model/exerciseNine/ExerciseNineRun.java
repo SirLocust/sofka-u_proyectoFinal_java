@@ -5,7 +5,7 @@ import com.sirlocust.proyecto_java_final.model.exerciseNine.model.ChangeVowelFro
 import com.sirlocust.proyecto_java_final.model.exerciseNine.view.ExerciseNineDashboard;
 
 public class ExerciseNineRun {
-  public boolean run() {
+  public static boolean run() {
 
     ExerciseNineDashboard exerciseNineDashboard = new ExerciseNineDashboard();
     ChangeVowelFromText changeVowelFromText = new ChangeVowelFromText();
